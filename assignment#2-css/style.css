@@ -1,0 +1,52 @@
+body{background-color: black; background-image: url(https://t3.ftcdn.net/jpg/05/13/53/60/360_F_513536076_eeXzmwZnOgVBJrxvyIVQ3VwCsVVz4F6W.jpg)}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face {
+    font-family: 'MyBungeeFont'; 
+    src: url('assets/Bungee-Regular.ttf') format('truetype');}
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10 {font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: italic;}
+.head{text-align: center;}
+.heading{background: rgba(18, 18, 18, 0.8);border:5px solid; text-align: center;display: inline-block;border-color: #2C3E50;}
+h1{text-transform: uppercase; color:#2C3E50;text-decoration: underline double #E74C3C; text-align: center;text-shadow: 4px 4px 0px rgba(231, 76, 60, 0.4);font-family: 'MyBungeeFont', sans-serif; font-size: xx-large; line-height: 1; }
+h1:hover{color: #FF007F;
+    text-shadow:
+         0 0 15px #bbd5dd;
+    text-decoration-color: #f40404; 
+    transition: all 0.4s ease;}
+
+
+.boxes{text-align: center; font-family: "Anton", sans-serif;
+  font-weight: 700;
+  font-style: normal; font-size: x-large;}
+.box1{width: 200px;min-min-height: 200px;background-color:#FF0000;padding: 10px 10px 10px 10px;margin: 10px 10px 10px 10px ; border: 3px  solid;text-align: center; text-transform: uppercase;display:inline-block;color: #00FFFF; border-color:#800000;}
+.box2{width: 200px;min-min-height: 200px;background-color: #FFFF00;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #7B2CBF; border-color:#9B870C;}
+.box3{width: 200px;min-height: 200px;background-color:#FF8C00;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #0000FF;border-color: #945200;letter-spacing:0.7px;}
+.box4{width: 200px;min-height: 200px;background-color: #4169E1;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #FFA500;border-color:#1A2F75;}
+.box5{width: 200px;min-height: 200px;background-color: #008000;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #FFC0CB; border-color: #004D00;}
+.box6{width: 200px;min-height: 200px;background-color: #4A4A4A;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #FFFFFF; border-color: #262626;letter-spacing:0.5px;}
+.box7{width: 200px;min-height: 200px;background-color: #8B0000;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #ADFF2F; border-color:#4A0000;}
+.box8{width: 200px;min-height: 200px;background-color: #2F4F4F;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #FFD700; border-color:#162626;}
+.box9{width: 200px;min-height: 200px;background-color:#FF4500;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #00FF00;border-color:#8B2500;}
+.box10{width: 200px;min-height: 200px;background-color: #000000;padding: 10px 10px 10px 10px;margin:10px ; border: 3px  solid;text-align: center; text-transform: uppercase; display:inline-block;color: #FF007F; border-color:#333333;}
+.thanku{text-align: center;}
+.thnk-img{filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.7));
+}
+.thnk-img:hover{filter: drop-shadow(0 0 20px rgba(255, 0, 0, 1)) hue-rotate(90deg) brightness(1.2);
+    transform: translateY(-8px) scale(1.05);}
+    .link{text-align: center;}
+    a:link{color: #00FBFF; 
+    text-decoration: line double;
+    text-shadow: 0 0 8px rgba(0, 251, 255, 0.6);
+    font-weight: bold;
+    transition: all 0.3s ease;}
+    a:focus{outline: 2px dashed #FFFF00;
+    outline-offset: 4px;
+    color: #FFFF00;}
+    a:visited{color: #BD93F9;
+    text-decoration: line-through rgba(189, 147, 249, 0.5);}
+    a:active{color: #FFFFFF;
+    transform: scale(0.95); 
+    text-shadow: 0 0 20px #FFFFFF;}
